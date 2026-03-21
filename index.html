@@ -4,40 +4,19 @@
   <meta charset="utf-8">
   <title>Inference Book</title>
 
-  <!-- Simple modern font similar to cover -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
 
   <style>
     body {
       margin: 0;
       font-family: 'Montserrat', sans-serif;
-
-      /* Background image */
-      background-image: url('cover_proof.jpg');
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-    }
-
-    /* Light overlay to fade the background */
-    body::before {
-      content: "";
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-
-      background: rgba(255, 255, 255, 0.75);
-      backdrop-filter: blur(3px);
-
-      z-index: -1;
+      background-color: #e6eef2; /* light blue background */
+      text-align: center;
     }
 
     .container {
       max-width: 900px;
       margin: 60px auto;
-      text-align: center;
       padding: 20px;
     }
 
@@ -51,19 +30,21 @@
     h2 {
       font-weight: 300;
       font-size: 1.5em;
-      color: #444;
-      margin-bottom: 30px;
-    }
-
-    .cover {
-      width: 300px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      color: #2f4f5f;
       margin-bottom: 30px;
     }
 
     p {
       font-size: 1.1em;
-      color: #222;
+      color: #2f4f5f;
+    }
+
+    .cover {
+      width: 320px;
+      max-width: 80%;
+      margin: 30px auto;
+      display: block;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.25);
     }
 
   </style>
