@@ -1,0 +1,59 @@
+body {
+	background-color: #2b5467;
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+h1 {
+  font-size: 60px;      
+  margin-top: 75px;  
+  margin-bottom: 15px;
+  color: #dabb8a;  
+}
+
+h2 {
+  font-size: 30px;  
+  color: white;	    
+}
+
+h3 {
+  font-size: 20px;  
+  color: #cfb665;	    
+}
+
+a {
+  font-size: 20px;
+  color: white;
+}
+
+
+.image-container {
+  text-align: center;   
+  margin-top: 40px;    
+  margin-bottom: 40px;
+}
+
+.image-container img {
+  width: 300px;        /* adjust size */
+border: 2px solid #dabb8a;  /* thickness, style, colour */
+}
+
+.links-container {
+  display: flex;
+  justify-content: center;   /* centres the two columns */
+  gap: 80px;                 /* space between columns */
+  margin-top: 40px;
+}
+
+.column {
+  text-align: left;          /* left-align links inside each column */
+}
+
+.column a {
+  display: block;            /* puts each link on its own line */
+  font-size: 22px;
+  color: white;
+  text-decoration: underline;
+  margin: 8px 0;
+}
