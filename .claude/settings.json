@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c//**)",
+      "PowerShell(& \"C:\\\\Users\\\\james\\\\anaconda3\\\\python.exe\" -c \"from PIL import Image, ImageDraw, ImageFont; print\\('ok'\\)\" 2>&1)"
+    ]
+  }
+}
