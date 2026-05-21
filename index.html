@@ -19,11 +19,18 @@
 The book is a practical guide to "risky inference", that is, making guesses when the truth is not certain. Risky inference problems lie at the heart of many fields, from the hard sciences, through engineering, social science, statistics, and artificial intelligence. Our goal is to provide readers with a broad practical introduction to the core tools and ideas, giving them the foundations to explore more advanced techniques, and to apply inference tools in their own fields. The book can be purchased in hard or electronic copy from the usual places. With permission from Cambridge University Press, we are also making a complete pdf version available for free from this site (click the cover image below).
 </p>
 
-<a href="ISMML_Book_v1_02.pdf" target="_blank" title="Click to download the book as PDF">
-  <div class="image-container">
-    <img src="inferencebookcover.jpg" alt="Book cover">
+<div class="image-container" onclick="document.getElementById('pdf-modal').style.display='flex'" style="cursor:pointer" title="Click for PDF options">
+  <img src="inferencebookcover.jpg" alt="Book cover">
+</div>
+
+<div id="pdf-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:100; justify-content:center; align-items:center;">
+  <div style="background:#2b5467; border:2px solid #dabb8a; padding:40px; text-align:center; max-width:340px; width:90%;">
+    <p style="font-size:18px; margin-bottom:30px;">What would you like to do with the PDF?</p>
+    <a href="ISMML_Book_v1_02.pdf" target="_blank" onclick="document.getElementById('pdf-modal').style.display='none'" style="display:block; margin-bottom:16px; padding:12px; background:#dabb8a; color:#2b5467; font-weight:bold; text-decoration:none;">Open in browser</a>
+    <a href="ISMML_Book_v1_02.pdf" download onclick="document.getElementById('pdf-modal').style.display='none'" style="display:block; margin-bottom:24px; padding:12px; background:#dabb8a; color:#2b5467; font-weight:bold; text-decoration:none;">Download</a>
+    <button onclick="document.getElementById('pdf-modal').style.display='none'" style="background:none; border:1px solid #dabb8a; color:#dabb8a; padding:8px 20px; cursor:pointer;">Cancel</button>
   </div>
-</a>
+</div>
 
 <h2 id="notebooks"> Python Notebooks </h2>
 
