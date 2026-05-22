@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "Read(//c//**)",
-      "PowerShell(& \"C:\\\\Users\\\\james\\\\anaconda3\\\\python.exe\" -c \"from PIL import Image, ImageDraw, ImageFont; print\\('ok'\\)\" 2>&1)"
+      "PowerShell(& \"C:\\\\Users\\\\james\\\\anaconda3\\\\python.exe\" -c \"from PIL import Image, ImageDraw, ImageFont; print\\('ok'\\)\" 2>&1)",
+      "PowerShell(& \"C:\\\\Users\\\\james\\\\anaconda3\\\\python.exe\" -c \"import json; nb=json.load\\(open\\('c:/Users/james/Documents/GitHub/inferencebook.github.io/notebooks/chapter_05_probabilistic_modelling.ipynb', encoding='utf-8'\\)\\); [print\\(repr\\(''.join\\(c['source']\\)\\)\\) for c in nb['cells'] if c.get\\('id'\\)=='cell-s3-plot']\")",
+      "PowerShell(& \"C:\\\\Users\\\\james\\\\anaconda3\\\\python.exe\" \"c:\\\\Users\\\\james\\\\Documents\\\\GitHub\\\\inferencebook.github.io\\\\fix_notebook.py\")",
+      "PowerShell(& \"C:\\\\Users\\\\james\\\\anaconda3\\\\python.exe\" \"c:\\\\Users\\\\james\\\\Documents\\\\GitHub\\\\inferencebook.github.io\\\\fix_ch8_ex3_box82.py\")"
     ]
   }
 }
