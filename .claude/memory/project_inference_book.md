@@ -16,4 +16,6 @@ Authors: Burridge and Tosh.
 
 **How to apply:** Changes to the site should support the book's pedagogical purpose. The site is static HTML — no build step, served via GitHub Pages.
 
+**Header links (index.html line 33):** NOTEBOOKS (anchor to #notebooks), SOLUTIONS (`ISMML_Solutions_Manual_Students.pdf`, new tab), SLIDES (`ISMML_website_slides.pdf`, new tab). All three PDFs live at the repo root.
+
 Book URL: https://www.cambridge.org/core/books/inference-in-statistical-modelling-and-machine-learning/AAD2272C8160E1B456D4A7145E901D88
